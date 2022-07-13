@@ -1,4 +1,4 @@
-## Belajar Git dan Github
+<h1>Belajar Git dan Github</h1>
 
 ---
 
