@@ -16,8 +16,6 @@ sudo apt install gh
 
 Untuk dokumentasi resmi : [Dokumentasi Resmi Install Git](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
 
-
-
 #### **Melakukan Remote Repository pada Github**
 
 Sebelumnya kita dapat langsung remote pada github ke local menggunakan email dan password, akan tetapi kebijakkan baru dari github mengharuskan kita menggunakan PAT (**Personal Acces Token**) berita selengkapnya dapat dilihat [disini]([Token authentication requirements for Git operations | The GitHub Blog](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)). Efek dari penggunaan PAT maka kita harus menginisialisasi Token kita sendiri dengan cara sebagai berikut :
@@ -42,11 +40,7 @@ Sebelumnya kita dapat langsung remote pada github ke local menggunakan email dan
 
 10. Oke token sudah dibuat harap simpan dengan hati-hati karena token tersebut password untuk melakukan remote pada repo kita
 
-
-
 Dokumentasi Resmi : [Cara Membuat Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-
-
 
 **Menggunakan Token**
 
@@ -59,8 +53,6 @@ Password: your_token
 ```
 
 Referensi : [Dokumentasi Resmi](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-
-
 
 Agar dapat otomatis tanpa harus mengulangi memasukkan username dan password terus menerus kita dapat menyimpan token tersebut dalam bentuk cache dengan menambahkan sintaks berikut 
 
@@ -77,8 +69,6 @@ git config --system --unset credential.helper
 
 referensi : [Referensi Menggunakan Token](https://itsmycode.com/support-for-password-authentication-was-removed-github/)
 
-
-
 Cara cepat menggunakan bisa dengan sintaks berikut :
 
 ```bash
@@ -87,8 +77,6 @@ git clone https://<tokenhere>@github.com/<user>/<repo>.git
 
 Referensi : [Referensi Stackoverflow](https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal)
 
-
-
 Demikianlah tulisan singkat rangkuman instalisasi git pada device local kita.
 
-Created by <mark>Muhammad Fitrian</mark>
+Created by <mark>justnotiyann</mark>

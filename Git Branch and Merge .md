@@ -84,4 +84,4 @@ git branch -D 'nama branch'
 
 Letak perbedaan ada di parameter terkait.
 
-Created by Muhammad Fitrian
+Created by justnotiyann
