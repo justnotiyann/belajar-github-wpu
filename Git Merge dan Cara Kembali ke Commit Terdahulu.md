@@ -1,12 +1,10 @@
-# Git Merge Conflict & Cara kembali ke commit terdahulu
+# Git Merge Conflict & Cara kembali ke commit Terdahulu
 
 ---
 
 #### Pengertian Merge Conflict
 
 **Merge Conflict** terjadi apabila terdapat kesamaan antara baris tertentu dalam code/file kita. Jadi kita harus fix secara manual untuk memilih mau menggunakan baris code yang mana.
-
-
 
 #### Cara Kembali ke Commit terdahulu
 
@@ -26,4 +24,17 @@ Lalu apabila sudah diketahui digit angkanya kita bisa langsung melakukan checkou
 git checkout '7 digit awal'
 ```
 
-Apabila kita 
+Apabila kita tetap berada pada commit tersebut dan ingin menambahkan branch baru maka kita harus melakukan checkout dan commit 
+
+```bash
+git checkout '7 digit awal'
+git branch 'nama branch baru'
+```
+
+Lalu tinggal checkout ke branch yang baru dibuat dengan cara
+
+```bash
+git checkout 'nama branch baru'
+```
+
+Created by @justnotiyann
