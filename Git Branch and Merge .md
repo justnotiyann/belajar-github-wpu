@@ -44,8 +44,6 @@ Shortcut untuk langsung berpindah ke branch yang baru ingin dibuat bisa mengguna
 git checkout -b 'nama branch'
 ```
 
-
-
 Catatan
 
 - **git checkout** => Biasanya digunakan untuk berpindah dari satu branch ke branch lainnya. Perintah ini juga bisa digunakan untuk berpindah ke commit sebelumnya.
